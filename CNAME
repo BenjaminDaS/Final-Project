@@ -1,1 +1,5 @@
-$ dig www.impactchess.com
+$ dig www.impactchess.com +nostats +nocomments +nocmd
+    > ;www.impactchess.com.                     IN      A
+    > www.impactchess.com.              3592    IN      CNAME   BenjaminDaS.github.io.
+    > BenjaminDaS.github.io.      43192   IN      CNAME    Final-Project .
+    >  Final-Project .         22      IN      A       192.0.2.1
