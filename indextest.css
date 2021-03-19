@@ -4,3 +4,9 @@ tr:nth-child(odd) td:nth-child(odd), tr:nth-child(even) td:nth-child(even) {
 tr:nth-child(even) td:nth-child(odd), tr:nth-child(odd) td:nth-child(even) { 
     background : red; 
 }
+
+td 
+{
+ height : 20%;
+ width : 10%;  
+}
