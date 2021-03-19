@@ -8,5 +8,6 @@ tr:nth-child(even) td:nth-child(odd), tr:nth-child(odd) td:nth-child(even) {
 td 
 {
  height : 20%;
- width : 10%;  
+ width : 10%;
+ padding : 10px;
 }
