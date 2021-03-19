@@ -2,3 +2,7 @@ tr : nth-child(odd) td : nth-child(odd) {
     background : black; 
   
 }
+
+t1 {
+   color : red;
+}
