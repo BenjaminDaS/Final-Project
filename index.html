@@ -9,15 +9,16 @@
     </t1>
   </body>
   <script>
-    var nbre_lignes = prompt("saisir le nombre de lignes du tableau") ;
-	if (nbre_lignes >50 ) {ventier =50 ; alert("nombre de lignes limitée à 50"); }
+    var nbre_lignes = 8 ;
 	document.write("<table>");
 	for (i=0;i<=nbre_lignes; i++)
 	{
 		document.write("<tr>");
+		for (i=0;i<=nbre_lignes; i++) 
+		{
 		document.write("<td>A </td>");
-		document.write("<td>A </td>");
-		document.write("<td>A </td>");
+		}	
+			
 		document.write("</tr>");
 	}
 	document.write("</table>");
