@@ -2,24 +2,23 @@
 <html>
   <head>
 	 <link rel = "stylesheet" type = "text/css" href = "./indextest.css">
+   <script src = "test.js"></script>
   </head>
   <body>
-    <t1>
-      Ceci est un test 
-    </t1>
   </body>
   <script>
-    var nbre_lignes = 8 ;
-	document.write("<table>");
-	for (i=0;i<=nbre_lignes; i++)
-	{
-		document.write("<tr>");
-		for (j=0;j<=nbre_lignes; j++) 
-		{
-		document.write("<td>A </td>");
-		}	
-		document.write("</tr>");
-	}
-	document.write("</table>");
-  </script>
+  let tab = document.createElement("table");
+for (let y = 0 ; y < 8 ; y++) {
+	let ligne = document.createElement("tr");
+    for (let i = 0 ; i < 8 ; i++) {
+    	let col = document.createElement("td");
+        col.id = String.fromCharCode(65+y) +"" + i;
+        col.addEventListener("click", function () {alert(col.id)});
+        ligne.appendChild(col);
+    }
+    tab.appendChild(ligne);
+}
+document.body.appendChild(tab);
+
+ </script>
 </html>
