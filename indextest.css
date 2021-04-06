@@ -1,13 +1,21 @@
 tr:nth-child(odd) td:nth-child(odd), tr:nth-child(even) td:nth-child(even) { 
-    background : yellow; 
+    background-color : #6e3300; 
 }
 tr:nth-child(even) td:nth-child(odd), tr:nth-child(odd) td:nth-child(even) { 
-    background : red; 
+    background-color : 	#FFDEAD; 
 }
 
 td 
 {
- height : 20%;
- width : 10%;
- padding : 10px;
+ height : auto;
+ width : auto;
+ padding : 40px ;
 }
+
+table 
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {border-collapse: collapse;}
